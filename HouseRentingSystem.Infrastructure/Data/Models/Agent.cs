@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace HouseRentingSystem.Infrastructure.Data
+namespace HouseRentingSystem.Infrastructure.Data.Models
 {
     [Comment("Agent Information")]
     public class Agent

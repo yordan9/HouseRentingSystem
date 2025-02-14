@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace HouseRentingSystem.Infrastructure.Data
+namespace HouseRentingSystem.Infrastructure.Data.Models
 {
     [Comment("House Category")]
     public class Category

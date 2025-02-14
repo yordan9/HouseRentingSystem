@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace HouseRentingSystem.Infrastructure.Data
+namespace HouseRentingSystem.Infrastructure.Data.Models
 {
     [Comment("House for renting")]
     public class House
@@ -21,7 +21,7 @@ namespace HouseRentingSystem.Infrastructure.Data
 
         [Required]
         [MaxLength(500), MinLength(50)]
-        public string Description {  get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
 
         [Required]
         public string ImageURL { get; set; } = string.Empty;
