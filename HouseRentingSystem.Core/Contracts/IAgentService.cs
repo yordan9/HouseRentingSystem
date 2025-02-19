@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HouseRentingSystem.Core.Contract
 {
-    internal interface IAgentService
+    public interface IAgentService
     {
         Task<bool> ExistById(string userId);
         Task<bool> UserWithPhoneNumberExists(string phoneNumber);

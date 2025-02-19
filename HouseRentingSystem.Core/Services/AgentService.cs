@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HouseRentingSystem.Core.Services
 {
-    internal class AgentService : IAgentService
+    public class AgentService : IAgentService
     {
         private readonly ApplicationDbContext data;
 

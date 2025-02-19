@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HouseRentingSystem.Core.Services
 {
-    internal class HouseService
+    public class HouseService
     {
     }
 }

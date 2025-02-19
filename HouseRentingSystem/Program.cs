@@ -1,6 +1,8 @@
+using HouseRentingSystem.Core.Contract;
 using HouseRentingSystem.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using HouseRentingSystem.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+builder.Services.AddScoped<IAgentService, AgentService>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {

@@ -8,7 +8,7 @@ using static HouseRentingSystem.Infrastructure.Constants.DataConstants;
 
 namespace HouseRentingSystem.Core.Models.Agent
 {
-    internal class BecomeAgentFormModel
+    public class BecomeAgentFormModel
     {
         [Required]
         [MaxLength(PhoneNumberMaxLength),MinLength(PhoneNumberMinLength)]
