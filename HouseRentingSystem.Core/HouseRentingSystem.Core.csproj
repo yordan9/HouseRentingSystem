@@ -15,9 +15,4 @@
     <ProjectReference Include="..\HouseRentingSystem.Infrastructure\HouseRentingSystem.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\Home\" />
-    <Folder Include="Models\House\" />
-  </ItemGroup>
-
 </Project>
